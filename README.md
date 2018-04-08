@@ -4,7 +4,12 @@ Surveyor is a simple survey app created with React, Redux, Ruby on Rails, and Po
 
 ### Installation
 
-To install the rails packages, first check your Ruby version, `ruby -v` and then check your gem version, `gem --version`. If you don't get an error, then ruby is installed. cd into `survey_app`. You will be able to install the rails packages by using `bundle` in the terminal or command line script. Please make sure you check your rails version by using `rails -v`. Run the rails server by using `bundle exec puma -C config/puma.rb -b tcp://127.0.0.1:3001` because postgresql is listening on port 3000.
+To install packages, first check your Ruby version, `ruby -v` and then check your gem version, `gem --version`. Please make sure you check your rails version by using `rails -v`.
+
+Run `npm install` inside survey_app
+Run `bundle install`
+
+Run the rails server by using `bundle exec puma -C config/puma.rb -b tcp://127.0.0.1:3001` because postgresql is listening on port 3000.
 
 ### Current Versions
 
